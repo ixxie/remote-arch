@@ -1,4 +1,4 @@
-import type { Employee } from './employee.types';
+import type { Employee } from './department.types';
 
 const firstNames = [
 	'Emma',
