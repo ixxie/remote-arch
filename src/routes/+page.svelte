@@ -15,6 +15,6 @@
 <p>Our site may look like it's from 1999, but it uses SvelteKit remote functions, we swear!</p>
 <ul>
   {#each departments as dept}
-      <li><b>{dept}</b> - <a href="/layout/{dept}">layout boundary</a></li>
+      <li><a href="/layout/{dept}"><b>{dept}</b></a></li>
   {/each}
 </ul>

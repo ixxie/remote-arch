@@ -23,7 +23,7 @@ const initDepartment = async () => {
 	}
 }
 
-type Dept =ReturnType<typeof initDepartment>
+type Dept = ReturnType<typeof initDepartment>
 
 export const useDepartment = () => {
 	let state: Dept;
