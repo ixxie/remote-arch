@@ -7,7 +7,7 @@ import type { Employee } from './department.types';
 
 const key = Symbol('Department-context');
 
-const initDepartment = async () => {
+async function initDepartment() {
 	let dept_id: string | null = $derived(page.params?.dept_id ?? null)
 	let employees: Employee[] = $derived(await loadDeptEmployees({
 		department: dept_id

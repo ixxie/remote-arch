@@ -6,7 +6,7 @@
 
 <a href="/">back</a>
 
-<h1>{department.dept_id} (layout boundary)</h1>
+<h1>{department.dept_id}</h1>
 
 {#each department.employees as employee}
   <article>
